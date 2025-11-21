@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEON | Future Bar Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+
+    <header id="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <h1>NEON</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#menu">Selection</a></li>
+                    <li><a href="#reserve">Access</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-content">
+                <h2>Taste the<br>Future</h2>
+                <p>Molecular Mixology & Digital Atmosphere</p>
+                <a href="#menu" class="btn">Enter the Grid</a>
+            </div>
+        </section>
+
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <span>MOLECULAR</span>
+                <span>DIGITAL</span>
+                <span>IMMERSIVE</span>
+                <span>FUTURISTIC</span>
+                <span>MOLECULAR</span>
+                <span>DIGITAL</span>
+                <span>IMMERSIVE</span>
+                <span>FUTURISTIC</span>
+            </div>
+        </div>
+
+        <section id="menu" class="section-padding">
+            <div class="container">
+                <div class="bento-grid">
+                    <!-- Large Feature Item -->
+                    <div class="bento-item large">
+                        <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=2064&auto=format&fit=crop"
+                            class="bento-bg" alt="Signature Cocktail">
+                        <div class="bento-content">
+                            <h4>Cyber Punk</h4>
+                            <span>€22.00</span>
+                        </div>
+                    </div>
+
+                    <!-- Standard Item -->
+                    <div class="bento-item">
+                        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=2070&auto=format&fit=crop"
+                            class="bento-bg" alt="Neon Drink">
+                        <div class="bento-content">
+                            <h4>Neon Flux</h4>
+                            <span>€18.00</span>
+                        </div>
+                    </div>
+
+                    <!-- Standard Item -->
+                    <div class="bento-item">
+                        <img src="https://images.unsplash.com/photo-1575023782549-62ca0d244b39?q=80&w=1974&auto=format&fit=crop"
+                            class="bento-bg" alt="Molecular">
+                        <div class="bento-content">
+                            <h4>Quantum Sol</h4>
+                            <span>€20.00</span>
+                        </div>
+                    </div>
+
+                    <!-- Large Feature Item -->
+                    <div class="bento-item large">
+                        <img src="https://images.unsplash.com/photo-1597075687490-8f673c6c17f6?q=80&w=1974&auto=format&fit=crop"
+                            class="bento-bg" alt="Food">
+                        <div class="bento-content">
+                            <h4>Zero-G Bites</h4>
+                            <span>€15.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 60px;">
+                    <a href="#" class="btn">View Full Menu PDF</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="location" class="section-padding">
+            <div class="container">
+                <h3 class="section-title" style="text-align: center; font-size: 3rem; margin-bottom: 50px;">Where We Are
+                </h3>
+                <div class="location-grid">
+                    <div class="map-container">
+                        <!-- Map Placeholder -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.301436363636!2d9.185924315555555!3d45.465421979100005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6a43845b847%3A0x4d63c38f04a06c0!2sDuomo%20di%20Milano!5e0!3m2!1sit!2sit!4v1620000000000!5m2!1sit!2sit"
+                            width="100%" height="100%" style="border:0; filter: invert(90%) hue-rotate(180deg);"
+                            allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="location-photos">
+                        <div class="loc-photo"
+                            style="background-image: url('https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?q=80&w=2029&auto=format&fit=crop');">
+                        </div>
+                        <div class="loc-photo"
+                            style="background-image: url('https://images.unsplash.com/photo-1572116469696-31de0f17cc34?q=80&w=1974&auto=format&fit=crop');">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reserve" class="section-padding" style="text-align: center;">
+            <div class="container">
+                <h3 style="font-size: 3rem; margin-bottom: 30px;">Secure Your Spot</h3>
+                <p
+                    style="color: var(--text-muted); margin-bottom: 50px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                    Reservations are required for the full sensory experience.
+                </p>
+                <form class="reservation-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" required>
+                        <input type="tel" placeholder="Phone" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" required>
+                        <input type="time" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="" disabled selected>Guests</option>
+                            <option value="1">1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4+">4+ People</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn">Confirm Reservation</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h4>NEON BAR</h4>
+                <p>Via del Futuro 2077, Milano</p>
+                <p>+39 02 8888 9999</p>
+                <p>access@neonbar.com</p>
+            </div>
+            <div class="footer-social">
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+            </div>
+            <p class="copyright">NEON BAR © 2077</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
