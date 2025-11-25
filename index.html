@@ -45,10 +45,17 @@
             <a href="#" class="logo">AETHER<span class="dot">.</span></a>
             <nav class="nav">
                 <ul class="nav-list">
-                    <li><a href="#hero" class="nav-link">Home</a></li>
-                    <li><a href="#services" class="nav-link">Servizi</a></li>
-                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                    <li><a href="#contact" class="nav-link btn-primary">Contattaci</a></li>
+                    <li><a href="#hero" class="nav-link" data-i18n="nav_home">Home</a></li>
+                    <li><a href="#services" class="nav-link" data-i18n="nav_services">Servizi</a></li>
+                    <li><a href="#portfolio" class="nav-link" data-i18n="nav_portfolio">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link btn-primary" data-i18n="nav_contact">Contattaci</a></li>
+                    <li>
+                        <div class="lang-switch">
+                            <button class="lang-btn active" data-lang="it">IT</button>
+                            <span class="lang-separator">|</span>
+                            <button class="lang-btn" data-lang="en">EN</button>
+                        </div>
+                    </li>
                 </ul>
                 <button class="mobile-menu-btn" aria-label="Menu">
                     <span></span>
@@ -67,17 +74,17 @@
                 <div class="orb orb-4"></div>
             </div>
             <div class="container hero-content">
-                <h1 class="hero-title reveal-text">
+                <h1 class="hero-title reveal-text" data-i18n="hero_title">
                     Eleviamo la tua <br>
                     <span class="gradient-text">Presenza Digitale</span>
                 </h1>
-                <p class="hero-subtitle reveal-text" style="transition-delay: 0.2s;">
+                <p class="hero-subtitle reveal-text" style="transition-delay: 0.2s;" data-i18n="hero_subtitle">
                     Creiamo siti web che non sono solo pagine, ma esperienze immersive. Design futuristico, prestazioni
                     estreme.
                 </p>
                 <div class="hero-cta reveal-text" style="transition-delay: 0.4s;">
-                    <a href="#contact" class="btn-glow">Inizia il Progetto</a>
-                    <a href="#portfolio" class="btn-outline">Vedi i Lavori</a>
+                    <a href="#contact" class="btn-glow" data-i18n="hero_cta_start">Inizia il Progetto</a>
+                    <a href="#portfolio" class="btn-outline" data-i18n="hero_cta_works">Vedi i Lavori</a>
                 </div>
             </div>
             <div class="scroll-indicator">
@@ -99,29 +106,31 @@
             <div class="container">
                 <div class="about-grid">
                     <div class="about-text">
-                        <h2 class="section-title">Il Nostro DNA</h2>
-                        <p class="section-desc">Siamo un collettivo di visionari digitali. Non seguiamo i trend, li
+                        <h2 class="section-title" data-i18n="about_title">Il Nostro DNA</h2>
+                        <p class="section-desc" data-i18n="about_desc_1">Siamo un collettivo di visionari digitali. Non
+                            seguiamo i trend, li
                             creiamo. La nostra missione è trasformare idee complesse in esperienze digitali fluide e
                             memorabili.</p>
-                        <p class="section-desc" style="margin-top: 1rem;">Ogni pixel è posizionato con intenzione, ogni
+                        <p class="section-desc" style="margin-top: 1rem;" data-i18n="about_desc_2">Ogni pixel è
+                            posizionato con intenzione, ogni
                             animazione racconta una storia.</p>
                     </div>
                     <div class="stats-grid">
                         <div class="stat-item glass-card">
                             <div class="stat-number" data-target="100">0</div>
-                            <div class="stat-label">Progetti Completati</div>
+                            <div class="stat-label" data-i18n="stats_projects">Progetti Completati</div>
                         </div>
                         <div class="stat-item glass-card">
                             <div class="stat-number" data-target="50">0</div>
-                            <div class="stat-label">Design Awards</div>
+                            <div class="stat-label" data-i18n="stats_awards">Design Awards</div>
                         </div>
                         <div class="stat-item glass-card">
                             <div class="stat-number" data-target="99">0</div>
-                            <div class="stat-label">% Clienti Soddisfatti</div>
+                            <div class="stat-label" data-i18n="stats_clients">% Clienti Soddisfatti</div>
                         </div>
                         <div class="stat-item glass-card">
                             <div class="stat-number" data-target="24">0</div>
-                            <div class="stat-label">h Supporto</div>
+                            <div class="stat-label" data-i18n="stats_support">h Supporto</div>
                         </div>
                     </div>
                 </div>
@@ -131,30 +140,35 @@
         <section id="services" class="services section-padding">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">I Nostri Servizi</h2>
-                    <p class="section-desc">Eccellenza tecnica e creativa per il tuo brand.</p>
+                    <h2 class="section-title" data-i18n="services_title">I Nostri Servizi</h2>
+                    <p class="section-desc" data-i18n="services_desc">Eccellenza tecnica e creativa per il tuo brand.
+                    </p>
                 </div>
                 <div class="services-grid">
                     <div class="service-card glass-card">
                         <div class="service-icon">✨</div>
-                        <h3>Web Design Premium</h3>
-                        <p>Interfacce utente mozzafiato progettate per catturare l'attenzione e convertire i visitatori.
+                        <h3 data-i18n="service_1_title">Web Design Premium</h3>
+                        <p data-i18n="service_1_desc">Interfacce utente mozzafiato progettate per catturare l'attenzione
+                            e convertire i visitatori.
                         </p>
                     </div>
                     <div class="service-card glass-card">
                         <div class="service-icon">🚀</div>
-                        <h3>Sviluppo Frontend</h3>
-                        <p>Codice pulito, veloce e ottimizzato SEO. Animazioni fluide e interattività avanzata.</p>
+                        <h3 data-i18n="service_2_title">Sviluppo Frontend</h3>
+                        <p data-i18n="service_2_desc">Codice pulito, veloce e ottimizzato SEO. Animazioni fluide e
+                            interattività avanzata.</p>
                     </div>
                     <div class="service-card glass-card">
                         <div class="service-icon">📱</div>
-                        <h3>Responsive & Mobile</h3>
-                        <p>Esperienza perfetta su ogni dispositivo, dal desktop allo smartphone.</p>
+                        <h3 data-i18n="service_3_title">Responsive & Mobile</h3>
+                        <p data-i18n="service_3_desc">Esperienza perfetta su ogni dispositivo, dal desktop allo
+                            smartphone.</p>
                     </div>
                     <div class="service-card glass-card">
                         <div class="service-icon">⚡</div>
-                        <h3>Ottimizzazione Performance</h3>
-                        <p>Tempi di caricamento istantanei per non perdere nemmeno un cliente.</p>
+                        <h3 data-i18n="service_4_title">Ottimizzazione Performance</h3>
+                        <p data-i18n="service_4_desc">Tempi di caricamento istantanei per non perdere nemmeno un
+                            cliente.</p>
                     </div>
                 </div>
             </div>
@@ -164,25 +178,29 @@
         <section id="process" class="process section-padding">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Come Lavoriamo</h2>
-                    <p class="section-desc">Un processo collaudato per risultati eccezionali.</p>
+                    <h2 class="section-title" data-i18n="process_title">Come Lavoriamo</h2>
+                    <p class="section-desc" data-i18n="process_desc">Un processo collaudato per risultati eccezionali.
+                    </p>
                 </div>
                 <div class="process-grid">
                     <div class="process-step glass-card">
                         <div class="step-number">01</div>
-                        <h3>Discovery</h3>
-                        <p>Analizziamo il tuo brand, i tuoi obiettivi e il tuo pubblico per definire una strategia
+                        <h3 data-i18n="process_1_title">Discovery</h3>
+                        <p data-i18n="process_1_desc">Analizziamo il tuo brand, i tuoi obiettivi e il tuo pubblico per
+                            definire una strategia
                             vincente.</p>
                     </div>
                     <div class="process-step glass-card">
                         <div class="step-number">02</div>
-                        <h3>Creation</h3>
-                        <p>Diamo vita al design con prototipi interattivi e scriviamo codice pulito e performante.</p>
+                        <h3 data-i18n="process_2_title">Creation</h3>
+                        <p data-i18n="process_2_desc">Diamo vita al design con prototipi interattivi e scriviamo codice
+                            pulito e performante.</p>
                     </div>
                     <div class="process-step glass-card">
                         <div class="step-number">03</div>
-                        <h3>Launch</h3>
-                        <p>Testiamo tutto rigorosamente e lanciamo il tuo sito verso il successo digitale.</p>
+                        <h3 data-i18n="process_3_title">Launch</h3>
+                        <p data-i18n="process_3_desc">Testiamo tutto rigorosamente e lanciamo il tuo sito verso il
+                            successo digitale.</p>
                     </div>
                 </div>
             </div>
@@ -191,30 +209,32 @@
         <section id="portfolio" class="portfolio section-padding">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Selected Works</h2>
-                    <p class="section-desc">Alcuni dei nostri progetti più recenti.</p>
+                    <h2 class="section-title" data-i18n="portfolio_title">Selected Works</h2>
+                    <p class="section-desc" data-i18n="portfolio_desc">Alcuni dei nostri progetti più recenti.</p>
                 </div>
                 <div class="portfolio-showcase">
                     <!-- Placeholder for portfolio items - will be populated or static -->
-                    <div class="portfolio-item" onclick="window.open('https://foxindustrialcontractingsrl.com/', '_blank')">
-                        <img src="images/Fox Industrial Contracting S.r.l..jpeg" alt="Fox Industrial Contracting" class="portfolio-image">
+                    <div class="portfolio-item"
+                        onclick="window.open('https://foxindustrialcontractingsrl.com/', '_blank')">
+                        <img src="images/Fox Industrial Contracting S.r.l..jpeg" alt="Fox Industrial Contracting"
+                            class="portfolio-image">
                         <div class="portfolio-info">
                             <h3>Fox Industrial Contracting</h3>
-                            <p>Industrial Services</p>
+                            <p data-i18n="portfolio_1_cat">Industrial Services</p>
                         </div>
                     </div>
                     <div class="portfolio-item">
                         <div class="portfolio-image placeholder-gradient-2"></div>
                         <div class="portfolio-info">
                             <h3>Zen Architecture</h3>
-                            <p>Portfolio Architetti</p>
+                            <p data-i18n="portfolio_2_cat">Portfolio Architetti</p>
                         </div>
                     </div>
                     <div class="portfolio-item">
                         <div class="portfolio-image placeholder-gradient-3"></div>
                         <div class="portfolio-info">
                             <h3>Cyber Finance</h3>
-                            <p>Fintech App Landing</p>
+                            <p data-i18n="portfolio_3_cat">Fintech App Landing</p>
                         </div>
                     </div>
                 </div>
@@ -225,8 +245,9 @@
             <div class="container">
                 <div class="contact-wrapper glass-card">
                     <div class="contact-content">
-                        <h2 class="section-title">Parliamo del tuo Futuro</h2>
-                        <p>Pronto a trasformare la tua visione in realtà? Compila il form e ti risponderemo entro 24
+                        <h2 class="section-title" data-i18n="contact_title">Parliamo del tuo Futuro</h2>
+                        <p data-i18n="contact_desc">Pronto a trasformare la tua visione in realtà? Compila il form e ti
+                            risponderemo entro 24
                             ore.</p>
                         <ul class="contact-details">
                             <li>hello@aether.agency</li>
@@ -237,17 +258,18 @@
                     <form class="contact-form">
                         <div class="form-group">
                             <input type="text" id="name" required placeholder=" ">
-                            <label for="name">Nome</label>
+                            <label for="name" data-i18n="contact_name">Nome</label>
                         </div>
                         <div class="form-group">
                             <input type="email" id="email" required placeholder=" ">
-                            <label for="email">Email</label>
+                            <label for="email" data-i18n="contact_email">Email</label>
                         </div>
                         <div class="form-group">
                             <textarea id="message" required placeholder=" " rows="4"></textarea>
-                            <label for="message">Messaggio</label>
+                            <label for="message" data-i18n="contact_message">Messaggio</label>
                         </div>
-                        <button type="submit" class="btn-glow full-width">Invia Richiesta</button>
+                        <button type="submit" class="btn-glow full-width" data-i18n="contact_submit">Invia
+                            Richiesta</button>
                     </form>
                 </div>
             </div>
@@ -260,26 +282,27 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <h2>AETHER</h2>
-                    <p>Creiamo esperienze digitali che definiscono il futuro. Design, tecnologia e strategia fusi in
+                    <p data-i18n="footer_desc">Creiamo esperienze digitali che definiscono il futuro. Design, tecnologia
+                        e strategia fusi in
                         un'unica entità.</p>
-                    <a href="#contact" class="cta-button-footer">Inizia un Progetto</a>
+                    <a href="#contact" class="cta-button-footer" data-i18n="footer_cta">Inizia un Progetto</a>
                 </div>
                 <div class="footer-col">
-                    <h4>Studio</h4>
+                    <h4 data-i18n="footer_studio">Studio</h4>
                     <ul class="footer-links">
-                        <li><a href="#about">Chi Siamo</a></li>
-                        <li><a href="#process">Il Nostro Metodo</a></li>
-                        <li><a href="#portfolio">Lavori</a></li>
-                        <li><a href="#">Carriere</a></li>
+                        <li><a href="#about" data-i18n="footer_link_about">Chi Siamo</a></li>
+                        <li><a href="#process" data-i18n="footer_link_method">Il Nostro Metodo</a></li>
+                        <li><a href="#portfolio" data-i18n="footer_link_works">Lavori</a></li>
+                        <li><a href="#" data-i18n="footer_link_careers">Carriere</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Servizi</h4>
+                    <h4 data-i18n="footer_services">Servizi</h4>
                     <ul class="footer-links">
-                        <li><a href="#services">Web Design</a></li>
-                        <li><a href="#services">Sviluppo Frontend</a></li>
-                        <li><a href="#services">E-Commerce</a></li>
-                        <li><a href="#services">Branding</a></li>
+                        <li><a href="#services" data-i18n="footer_link_web">Web Design</a></li>
+                        <li><a href="#services" data-i18n="footer_link_frontend">Sviluppo Frontend</a></li>
+                        <li><a href="#services" data-i18n="footer_link_ecommerce">E-Commerce</a></li>
+                        <li><a href="#services" data-i18n="footer_link_branding">Branding</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -308,8 +331,199 @@
         import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
         import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
         import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+        // import translations from './translations.js'; // Commented out to avoid CORS on local file opening
+
+        const translations = {
+            it: {
+                nav_home: "Home",
+                nav_services: "Servizi",
+                nav_portfolio: "Portfolio",
+                nav_contact: "Contattaci",
+
+                hero_title: "Eleviamo la tua <br> <span class=\"gradient-text\">Presenza Digitale</span>",
+                hero_subtitle: "Creiamo siti web che non sono solo pagine, ma esperienze immersive. Design futuristico, prestazioni estreme.",
+                hero_cta_start: "Inizia il Progetto",
+                hero_cta_works: "Vedi i Lavori",
+
+                about_title: "Il Nostro DNA",
+                about_desc_1: "Siamo un collettivo di visionari digitali. Non seguiamo i trend, li creiamo. La nostra missione è trasformare idee complesse in esperienze digitali fluide e memorabili.",
+                about_desc_2: "Ogni pixel è posizionato con intenzione, ogni animazione racconta una storia.",
+
+                stats_projects: "Progetti Completati",
+                stats_awards: "Design Awards",
+                stats_clients: "% Clienti Soddisfatti",
+                stats_support: "h Support",
+
+                services_title: "I Nostri Servizi",
+                services_desc: "Eccellenza tecnica e creativa per il tuo brand.",
+
+                service_1_title: "Web Design Premium",
+                service_1_desc: "Interfacce utente mozzafiato progettate per catturare l'attenzione e convertire i visitatori.",
+                service_2_title: "Sviluppo Frontend",
+                service_2_desc: "Codice pulito, veloce e ottimizzato SEO. Animazioni fluide e interattività avanzata.",
+                service_3_title: "Responsive & Mobile",
+                service_3_desc: "Esperienza perfetta su ogni dispositivo, dal desktop allo smartphone.",
+                service_4_title: "Ottimizzazione Performance",
+                service_4_desc: "Tempi di caricamento istantanei per non perdere nemmeno un cliente.",
+
+                process_title: "Come Lavoriamo",
+                process_desc: "Un processo collaudato per risultati eccezionali.",
+
+                process_1_title: "Discovery",
+                process_1_desc: "Analizziamo il tuo brand, i tuoi obiettivi e il tuo pubblico per definire una strategia vincente.",
+                process_2_title: "Creation",
+                process_2_desc: "Diamo vita al design con prototipi interattivi e scriviamo codice pulito e performante.",
+                process_3_title: "Launch",
+                process_3_desc: "Testiamo tutto rigorosamente e lanciamo il tuo sito verso il successo digitale.",
+
+                portfolio_title: "Selected Works",
+                portfolio_desc: "Alcuni dei nostri progetti più recenti.",
+                portfolio_1_cat: "Industrial Services",
+                portfolio_2_cat: "Portfolio Architetti",
+                portfolio_3_cat: "Fintech App Landing",
+
+                contact_title: "Parliamo del tuo Futuro",
+                contact_desc: "Pronto a trasformare la tua visione in realtà? Compila il form e ti risponderemo entro 24 ore.",
+                contact_name: "Nome",
+                contact_email: "Email",
+                contact_message: "Messaggio",
+                contact_submit: "Invia Richiesta",
+
+                footer_desc: "Creiamo esperienze digitali che definiscono il futuro. Design, tecnologia e strategia fusi in un'unica entità.",
+                footer_cta: "Inizia un Progetto",
+                footer_studio: "Studio",
+                footer_link_about: "Chi Siamo",
+                footer_link_method: "Il Nostro Metodo",
+                footer_link_works: "Lavori",
+                footer_link_careers: "Carriere",
+                footer_services: "Servizi",
+                footer_link_web: "Web Design",
+                footer_link_frontend: "Sviluppo Frontend",
+                footer_link_ecommerce: "E-Commerce",
+                footer_link_branding: "Branding"
+            },
+            en: {
+                nav_home: "Home",
+                nav_services: "Services",
+                nav_portfolio: "Portfolio",
+                nav_contact: "Contact Us",
+
+                hero_title: "We Elevate Your <br> <span class=\"gradient-text\">Digital Presence</span>",
+                hero_subtitle: "We create websites that are not just pages, but immersive experiences. Futuristic design, extreme performance.",
+                hero_cta_start: "Start Project",
+                hero_cta_works: "View Works",
+
+                about_title: "Our DNA",
+                about_desc_1: "We are a collective of digital visionaries. We don't follow trends, we create them. Our mission is to transform complex ideas into fluid and memorable digital experiences.",
+                about_desc_2: "Every pixel is placed with intention, every animation tells a story.",
+
+                stats_projects: "Completed Projects",
+                stats_awards: "Design Awards",
+                stats_clients: "% Satisfied Clients",
+                stats_support: "h Support",
+
+                services_title: "Our Services",
+                services_desc: "Technical and creative excellence for your brand.",
+
+                service_1_title: "Premium Web Design",
+                service_1_desc: "Breathtaking user interfaces designed to capture attention and convert visitors.",
+                service_2_title: "Frontend Development",
+                service_2_desc: "Clean, fast, and SEO-optimized code. Smooth animations and advanced interactivity.",
+                service_3_title: "Responsive & Mobile",
+                service_3_desc: "Perfect experience on every device, from desktop to smartphone.",
+                service_4_title: "Performance Optimization",
+                service_4_desc: "Instant load times so you don't lose a single customer.",
+
+                process_title: "How We Work",
+                process_desc: "A proven process for exceptional results.",
+
+                process_1_title: "Discovery",
+                process_1_desc: "We analyze your brand, your goals, and your audience to define a winning strategy.",
+                process_2_title: "Creation",
+                process_2_desc: "We bring the design to life with interactive prototypes and write clean, performant code.",
+                process_3_title: "Launch",
+                process_3_desc: "We rigorously test everything and launch your site towards digital success.",
+
+                portfolio_title: "Selected Works",
+                portfolio_desc: "Some of our most recent projects.",
+                portfolio_1_cat: "Industrial Services",
+                portfolio_2_cat: "Architects Portfolio",
+                portfolio_3_cat: "Fintech App Landing",
+
+                contact_title: "Let's Talk About Your Future",
+                contact_desc: "Ready to transform your vision into reality? Fill out the form and we will reply within 24 hours.",
+                contact_name: "Name",
+                contact_email: "Email",
+                contact_message: "Message",
+                contact_submit: "Send Request",
+
+                footer_desc: "We create digital experiences that define the future. Design, technology, and strategy fused into a single entity.",
+                footer_cta: "Start a Project",
+                footer_studio: "Studio",
+                footer_link_about: "About Us",
+                footer_link_method: "Our Method",
+                footer_link_works: "Works",
+                footer_link_careers: "Careers",
+                footer_services: "Services",
+                footer_link_web: "Web Design",
+                footer_link_frontend: "Frontend Dev",
+                footer_link_ecommerce: "E-Commerce",
+                footer_link_branding: "Branding"
+            }
+        };
 
         document.addEventListener('DOMContentLoaded', () => {
+            // --- LANGUAGE SWITCHER ---
+            const langBtns = document.querySelectorAll('.lang-btn');
+            const translatableElements = document.querySelectorAll('[data-i18n]');
+
+            // Check localStorage or default to 'it'
+            let currentLang = localStorage.getItem('aether_lang') || 'it';
+            updateLanguage(currentLang);
+
+            langBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const lang = btn.getAttribute('data-lang');
+                    if (lang !== currentLang) {
+                        currentLang = lang;
+                        localStorage.setItem('aether_lang', lang);
+                        updateLanguage(lang);
+                    }
+                });
+            });
+
+            function updateLanguage(lang) {
+                // Update buttons state
+                langBtns.forEach(btn => {
+                    if (btn.getAttribute('data-lang') === lang) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+
+                // Update text content
+                translatableElements.forEach(el => {
+                    const key = el.getAttribute('data-i18n');
+                    if (translations[lang] && translations[lang][key]) {
+                        // Handle HTML content (for <br> etc)
+                        if (translations[lang][key].includes('<')) {
+                            el.innerHTML = translations[lang][key];
+                        } else {
+                            el.innerText = translations[lang][key];
+                        }
+
+                        // Update data-text for glitch effect if present
+                        if (el.hasAttribute('data-text')) {
+                            el.setAttribute('data-text', translations[lang][key]);
+                        }
+                    }
+                });
+
+                // Update html lang attribute
+                document.documentElement.lang = lang;
+            }
+
             // --- CONFIGURATION ---
             const CONFIG = {
                 scrambleSpeed: 50,

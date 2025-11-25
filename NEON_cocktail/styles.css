@@ -170,6 +170,26 @@ ul {
     width: 100%;
 }
 
+.lang-btn {
+    background: transparent;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    padding: 5px 15px;
+    font-family: var(--font-main);
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    transition: var(--transition);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.lang-btn:hover {
+    background: var(--accent-color);
+    color: var(--bg-color);
+    box-shadow: var(--accent-glow);
+}
+
 /* Hero */
 .hero {
     height: 100vh;
@@ -215,6 +235,7 @@ ul {
     margin-bottom: 20px;
     background: linear-gradient(to right, #fff, #aaa);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: 0;
     transform: translateY(50px);
@@ -376,6 +397,7 @@ footer {
         display: none;
     }
 }
+
 /* Location Section */
 .location-grid {
     display: grid;
@@ -389,7 +411,7 @@ footer {
     height: 100%;
     border-radius: 20px;
     overflow: hidden;
-    border: 1px solid rgba(255,255,255,0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .location-photos {
@@ -404,7 +426,7 @@ footer {
     background-size: cover;
     background-position: center;
     border-radius: 20px;
-    border: 1px solid rgba(255,255,255,0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     transition: var(--transition);
 }
 
@@ -427,10 +449,11 @@ footer {
     gap: 20px;
 }
 
-.reservation-form input, .reservation-form select {
+.reservation-form input,
+.reservation-form select {
     width: 100%;
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 15px;
     color: var(--text-main);
     font-family: var(--font-main);
@@ -439,7 +462,8 @@ footer {
     transition: var(--transition);
 }
 
-.reservation-form input:focus, .reservation-form select:focus {
+.reservation-form input:focus,
+.reservation-form select:focus {
     border-color: var(--accent-color);
     box-shadow: 0 0 10px rgba(100, 255, 218, 0.1);
 }
@@ -479,7 +503,7 @@ footer {
     width: 100%;
     text-align: center;
     margin-top: 40px;
-    color: rgba(255,255,255,0.2);
+    color: rgba(255, 255, 255, 0.2);
     font-size: 0.8rem;
 }
 
@@ -488,24 +512,24 @@ footer {
         grid-template-columns: 1fr;
         height: auto;
     }
-    
+
     .map-container {
         height: 300px;
     }
-    
+
     .location-photos {
         height: 400px;
     }
-    
+
     .form-group {
         flex-direction: column;
     }
-    
+
     .footer-content {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .footer-social a {
         margin: 0 10px;
     }

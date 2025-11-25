@@ -21,9 +21,10 @@
             </div>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#menu">Selection</a></li>
-                    <li><a href="#reserve">Prenota</a></li>
+                    <li><a href="#experience" data-i18n="nav_experience">Experience</a></li>
+                    <li><a href="#menu" data-i18n="nav_selection">Selection</a></li>
+                    <li><a href="#reserve" data-i18n="nav_reserve">Prenota</a></li>
+                    <li><button id="lang-toggle" class="lang-btn">IT</button></li>
                 </ul>
             </nav>
         </div>
@@ -33,9 +34,9 @@
         <section class="hero">
             <div class="hero-bg"></div>
             <div class="hero-content">
-                <h2>Taste the<br>Future</h2>
-                <p>Molecular Mixology & Digital Atmosphere</p>
-                <a href="#menu" class="btn">Enter the Grid</a>
+                <h2 data-i18n="hero_title">Taste the<br>Future</h2>
+                <p data-i18n="hero_subtitle">Molecular Mixology & Digital Atmosphere</p>
+                <a href="#menu" class="btn" data-i18n="hero_cta">Enter the Grid</a>
             </div>
         </section>
 
@@ -60,7 +61,7 @@
                         <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=2064&auto=format&fit=crop"
                             class="bento-bg" alt="Signature Cocktail">
                         <div class="bento-content">
-                            <h4>Cyber Punk</h4>
+                            <h4 data-i18n="drink_cyber_punk">Cyber Punk</h4>
                             <span>€22.00</span>
                         </div>
                     </div>
@@ -70,7 +71,7 @@
                         <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=2070&auto=format&fit=crop"
                             class="bento-bg" alt="Neon Drink">
                         <div class="bento-content">
-                            <h4>Neon Flux</h4>
+                            <h4 data-i18n="drink_neon_flux">Neon Flux</h4>
                             <span>€18.00</span>
                         </div>
                     </div>
@@ -80,7 +81,7 @@
                         <img src="https://images.unsplash.com/photo-1575023782549-62ca0d244b39?q=80&w=1974&auto=format&fit=crop"
                             class="bento-bg" alt="Molecular">
                         <div class="bento-content">
-                            <h4>Quantum Sol</h4>
+                            <h4 data-i18n="drink_quantum_sol">Quantum Sol</h4>
                             <span>€20.00</span>
                         </div>
                     </div>
@@ -90,7 +91,7 @@
                         <img src="https://images.unsplash.com/photo-1597075687490-8f673c6c17f6?q=80&w=1974&auto=format&fit=crop"
                             class="bento-bg" alt="Food">
                         <div class="bento-content">
-                            <h4>Zero-G Bites</h4>
+                            <h4 data-i18n="food_zero_g">Zero-G Bites</h4>
                             <span>€15.00</span>
                         </div>
                     </div>
@@ -100,21 +101,22 @@
                         <img src="/Users/camillacacace/.gemini/antigravity/brain/9eae6f07-7332-4556-8b90-d6c4423374e3/plasma_fizz_cocktail_1763759373106.png"
                             class="bento-bg" alt="Plasma Fizz">
                         <div class="bento-content">
-                            <h4>Plasma Fizz</h4>
+                            <h4 data-i18n="drink_plasma_fizz">Plasma Fizz</h4>
                             <span>€19.00</span>
                         </div>
                     </div>
                 </div>
 
                 <div style="text-align: center; margin-top: 60px;">
-                    <a href="#" class="btn">View Full Menu PDF</a>
+                    <a href="#" class="btn" data-i18n="menu_pdf">View Full Menu PDF</a>
                 </div>
             </div>
         </section>
 
         <section id="location" class="section-padding">
             <div class="container">
-                <h3 class="section-title" style="text-align: center; font-size: 3rem; margin-bottom: 50px;">Where We Are
+                <h3 class="section-title" style="text-align: center; font-size: 3rem; margin-bottom: 50px;"
+                    data-i18n="location_title">Where We Are
                 </h3>
                 <div class="location-grid">
                     <div class="map-container">
@@ -138,9 +140,9 @@
 
         <section id="reserve" class="section-padding" style="text-align: center;">
             <div class="container">
-                <h3 style="font-size: 3rem; margin-bottom: 30px;">Secure Your Spot</h3>
-                <p
-                    style="color: var(--text-muted); margin-bottom: 50px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                <h3 style="font-size: 3rem; margin-bottom: 30px;" data-i18n="reserve_title">Secure Your Spot</h3>
+                <p style="color: var(--text-muted); margin-bottom: 50px; max-width: 600px; margin-left: auto; margin-right: auto;"
+                    data-i18n="reserve_subtitle">
                     Reservations are required for the full sensory experience.
                 </p>
                 <form class="reservation-form">
@@ -161,7 +163,7 @@
                             <option value="4+">4+ People</option>
                         </select>
                     </div>
-                    <button type="submit" class="btn">Confirm Reservation</button>
+                    <button type="submit" class="btn" data-i18n="reserve_btn">Confirm Reservation</button>
                 </form>
             </div>
         </section>
@@ -171,7 +173,7 @@
         <div class="container footer-content">
             <div class="footer-info">
                 <h4>NEON BAR</h4>
-                <p>Via del Futuro 2077, Milano</p>
+                <p data-i18n="footer_address">Via del Futuro 2077, Milano</p>
                 <p>+39 02 8888 9999</p>
                 <p>access@neonbar.com</p>
             </div>
