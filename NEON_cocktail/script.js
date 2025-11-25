@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
             drink_quantum_sol: "Quantum Sol",
             food_zero_g: "Zero-G Bites",
             drink_plasma_fizz: "Plasma Fizz",
-            menu_pdf: "View Full Menu PDF",
+            menu_pdf: "View Full Menu",
             location_title: "Where We Are",
             reserve_title: "Secure Your Spot",
             reserve_subtitle: "Reservations are required for the full sensory experience.",
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
             drink_quantum_sol: "Quantum Sol",
             food_zero_g: "Bocconcini Zero-G",
             drink_plasma_fizz: "Plasma Fizz",
-            menu_pdf: "Vedi Menu Completo PDF",
+            menu_pdf: "Vedi Tutto il Menu",
             location_title: "Dove Siamo",
             reserve_title: "Assicura il tuo Posto",
             reserve_subtitle: "La prenotazione è richiesta per l'esperienza sensoriale completa.",
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     langToggle.addEventListener('click', () => {
         // Toggle language
         currentLang = currentLang === 'en' ? 'it' : 'en';
-        
+
         // Update button text
         langToggle.textContent = currentLang === 'en' ? 'IT' : 'EN'; // Show what you can switch TO, or current? Usually current. Let's show current.
         // Actually, usually buttons show the language you are switching TO, or the current language code. 
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const key = el.getAttribute('data-i18n');
             if (translations[currentLang][key]) {
                 if (key === 'hero_title') {
-                     el.innerHTML = translations[currentLang][key]; // Handle HTML for <br>
+                    el.innerHTML = translations[currentLang][key]; // Handle HTML for <br>
                 } else {
                     el.textContent = translations[currentLang][key];
                 }
