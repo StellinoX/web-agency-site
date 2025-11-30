@@ -748,7 +748,28 @@ ul {
 /* Mobile */
 @media (max-width: 768px) {
     .hero-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .section-padding {
+        padding: 6rem 0;
+    }
+
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    .glass-card {
+        padding: 1.5rem;
+    }
+
+    footer {
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    .footer-grid {
+        margin-bottom: 3rem;
     }
 
     .contact-wrapper {
