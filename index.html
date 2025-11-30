@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aether Web Agency | Siti Web Premium</title>
+    <title>Etraweb Web Agency | Siti Web Premium</title>
     <meta name="description"
         content="Creiamo esperienze digitali straordinarie. La migliore web agency per il tuo business.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +42,7 @@
 
     <header class="header">
         <div class="container header-container">
-            <a href="#" class="logo">AETHER<span class="dot">.</span></a>
+            <a href="#" class="logo">ETRAWEB<span class="dot">.</span></a>
             <nav class="nav">
                 <ul class="nav-list">
                     <li><a href="#hero" class="nav-link" data-i18n="nav_home">Home</a></li>
@@ -224,8 +224,7 @@
                         </div>
                     </div>
                     <div class="portfolio-item" onclick="window.open('NEON_cocktail/index.html', '_blank')">
-                        <img src="images/neon-cover.png"
-                            alt="NEON Cocktail Bar" class="portfolio-image">
+                        <img src="images/neon-cover.png" alt="NEON Cocktail Bar" class="portfolio-image">
                         <div class="portfolio-info">
                             <h3>NEON Cocktail Bar</h3>
                             <p data-i18n="portfolio_2_cat">Sito Web Cocktail Bar</p>
@@ -251,7 +250,7 @@
                             risponderemo entro 24
                             ore.</p>
                         <ul class="contact-details">
-                            <li>hello@aether.agency</li>
+                            <li>assistenza@etraweb.com</li>
                             <li>+39 02 123 4567</li>
                             <li>Milano, Italia</li>
                         </ul>
@@ -282,7 +281,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <h2>AETHER</h2>
+                    <h2>ETRAWEB</h2>
                     <p data-i18n="footer_desc">Creiamo esperienze digitali che definiscono il futuro. Design, tecnologia
                         e strategia fusi in
                         un'unica entità.</p>
@@ -317,9 +316,9 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 AETHER Digital Agency. All rights reserved.</p>
+                <p>&copy; 2025 Etraweb Digital Agency. All rights reserved.</p>
                 <div class="social-links">
-                    <a href="#" class="social-icon">IG</a>
+                    <a href="https://instagram.com/etra.web" class="social-icon" target="_blank">IG</a>
                     <a href="#" class="social-icon">LI</a>
                     <a href="#" class="social-icon">BE</a>
                 </div>
@@ -479,7 +478,7 @@
             const translatableElements = document.querySelectorAll('[data-i18n]');
 
             // Check localStorage or default to 'it'
-            let currentLang = localStorage.getItem('aether_lang') || 'it';
+            let currentLang = localStorage.getItem('etraweb_lang') || 'it';
             updateLanguage(currentLang);
 
             langBtns.forEach(btn => {
@@ -487,7 +486,7 @@
                     const lang = btn.getAttribute('data-lang');
                     if (lang !== currentLang) {
                         currentLang = lang;
-                        localStorage.setItem('aether_lang', lang);
+                        localStorage.setItem('etraweb_lang', lang);
                         updateLanguage(lang);
                     }
                 });
