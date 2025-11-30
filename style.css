@@ -1043,6 +1043,25 @@ footer {
     transform: translateY(-3px);
 }
 
+.instagram-btn {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    color: white !important;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 4px 15px rgba(220, 39, 67, 0.3);
+    border: none;
+}
+
+.instagram-btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 20px rgba(220, 39, 67, 0.5);
+    color: white !important;
+}
+
 .cta-button-footer {
     display: inline-block;
     padding: 1rem 2rem;
