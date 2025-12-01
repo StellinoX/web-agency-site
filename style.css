@@ -966,7 +966,11 @@ main {
     }
 
     .stats-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    #bg-canvas {
+        opacity: 0.4;
     }
 }
 
